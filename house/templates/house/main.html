@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+<head>
+    <title>Infomations</title>
+    <link rel="stylesheet" href="{% static 'house/styles.css' %}">
+    
+<body>
+    <h1>House info</h1>
+    <ul>
+        {% for home in house %}
+        <li>{{home.nom}} </li>
+        <li>{{home.prenom}} </li>
+        <li>{{home.emails}} </li>
+        <li>{{home.phone}} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

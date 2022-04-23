@@ -1,0 +1,10 @@
+h1 { 
+    text-align: center;
+    margin-top: 100px;
+}
+
+body{
+    background: url("images/luxury-houses-with-yellow-light-in-modern-villa-at-night-04-HD-picture.webp");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}

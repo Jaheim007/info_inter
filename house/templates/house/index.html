@@ -1,0 +1,16 @@
+{% load static %}
+<html >
+<head>
+    <title>Les Maisons</title>
+    <link rel="stylesheet" href="{% static 'house/style.css' %}">
+</head>
+<body>
+    <h1>Les Maisons</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Envoyer">
+    </form>
+  
+</body>
+</html>

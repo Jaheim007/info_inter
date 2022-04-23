@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+}
+
+body{
+    background: url("images/house.webp");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
