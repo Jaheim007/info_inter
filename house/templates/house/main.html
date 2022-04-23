@@ -7,12 +7,10 @@
 <body>
     <h1>House info</h1>
     <ul>
-        {% for home in house %}
-        <li>{{home.nom}} </li>
-        <li>{{home.prenom}} </li>
-        <li>{{home.emails}} </li>
-        <li>{{home.phone}} </li>
-        {% endfor %}
+        {{% for form in form_names %}}
+            <li>{{form.nom}}</li>
+        {{% endfor %}}
+
     </ul>
 </body>
 </html>
